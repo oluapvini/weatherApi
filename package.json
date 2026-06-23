@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/oluapvini/weatherApi/issues"
   },
-  "homepage": "https://github.com/oluapvini/weatherApi#readme"
+  "homepage": "https://github.com/oluapvini/weatherApi#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
 }
