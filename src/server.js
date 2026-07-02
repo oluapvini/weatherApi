@@ -1,7 +1,9 @@
 import express from "express";
+import "dotenv/config";
+import { env } from "./config/env.js";
 
 const app = express();
-const PORT = 3333;
+const PORT = env.port;
 
 app.get("/weather/:city", (req, res) => {
     const city = req.params.city;
